@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* first start navbar  */
+.navbar {
+    border-bottom: 2px solid #eee;
+}
+
+/* ul Of nav-bar */
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*  Start header  */
+header h1 {
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 40%;
+}
+
+
+/*  bg-img of header  */
+header {
+    background-image: url(../img/hero/watch.png);
+    background-repeat: no-repeat;
+    background-size: 22%;
+    background-position-x: 80%;
+
+}
+
+/* end header */
+
+/* first row */
+.row {
+    height: 150vh;
+}
+
+/* end First row */
+
+
+/* Start Second row */
+
+.Cont {
+    height: 150vh;
+}
+
+
+.Cont h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.Cont h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+.Cont p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(220, 53, 69, 1);
+}
+
+.Cont img {
+    width: 80%;
+    height: 40%;
+    margin-left: 2rem;
+    padding: 0%;
+}
+
+
+/* third row */
+
+.Cont2 {
+    height: 200vh;
+}
+
+.Cont2 img {
+    width: 70%;
+    height: 70%;
+    border-bottom: 2px solid red;
+    margin-left: 3.4rem;
+}
+
+
+
+.font h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+
+
+
+}
+
+
+.font p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(220, 53, 69, 1);
+
+}
+
+
+.lorem {
+    text-align: center;
+    position: relative;
+    bottom: 1rem;
+}
+
+.lorem h1 {
+    font-weight: bold;
+}
+
+.lorem p {
+    color: rgb(108, 117, 125, 1)
+}
+
+.cardd {
+    position: relative;
+    overflow: hidden;
+}
+
+.add {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3.4rem;
+    color: white;
+    width: 70%;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.226), rgb(236, 97, 97), rgb(243, 49, 49));
+    border-radius: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0;
+    transition: 1s;
+}
+
+.add h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color: white;
+    transition-property: padding-bottom;
+    transition: 1.2s;
+
+
+}
+
+.add p {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+
+}
+
+.font :hover {
+    opacity: 1;
+    cursor: pointer;
+
+    .add h3 {
+        padding-top: 50%;
+
+    }
+
+
+}
+
+/* fourth row */
+
+.watch-of-choice {
+    height: 35%;
+    text-align: start;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.watch-of-choice h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.watch-of-choice p {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.im img {
+    border-radius: 10px;
+    width: 35rem;
+    position: relative;
+}
+
+
+.watch-of-choice button {
+    width: 30%;
+    transition: 0.6s;
+}
+
+.watch-of-choice button :hover {
+    transform: scale(1.1);
+}
+
+.im2 img {
+    border-radius: 10px;
+    width: 35rem;
+    position: relative;
+    right: 2rem;
+
+
+}
+
+.Cont3 {
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+.Cont3-1 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    color: white;
+    margin-top: 4rem;
+    background-color: #dc3545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link-card {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.middle p {
+    font-size: 15px;
+    font-weight: 450;
+    color: #000;
+}
+
+
+
+.middle i {
+    font-size: 40px;
+    padding: 10px;
+}
+
+
+
+/* fifth row */
+
+.Cont4{
+    height: 80vh;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.img-footer{
+    position: relative;
+    left: 10rem;
+    bottom: 10rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+.footer-section .socials a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section .socials a:hover {
+    color: #007bff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
